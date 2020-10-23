@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "rockpaperscissors-master/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - rockpaperscissors-master",
+			"detail": "vue-cli-service build --inline-vue"
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "rockpaperscissors-master/",
+			"problemMatcher": [],
+			"label": "npm: install - rockpaperscissors-master",
+			"detail": "install dependencies from package",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
